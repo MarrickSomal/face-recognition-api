@@ -20,8 +20,6 @@ const db = knex({
   }
 });
 
-console.log(postgres.select('*').from('users'));
-
 const app = express();
 
 app.use(cors())
